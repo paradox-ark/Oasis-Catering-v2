@@ -13,6 +13,13 @@
   $$("[data-open-drawer]").forEach(b=>b.addEventListener("click",()=>drawer&&drawer.classList.add("open")));
   $$("[data-close-drawer]").forEach(b=>b.addEventListener("click",()=>drawer&&drawer.classList.remove("open")));
 
+  /* fabs stay off the hero on phones — appear once you scroll past it */
+  const fabs=$(".fab-stack"), hero=$(".hero");
+  if(fabs&&hero&&matchMedia("(max-width:560px)").matches){
+    const setH=()=>document.body.classList.toggle("on-hero",scrollY<hero.offsetHeight-120);
+    setH(); addEventListener("scroll",setH,{passive:true});
+  }
+
   /* active nav */
   const page=(location.pathname.split("/").pop()||"index.html").toLowerCase();
   $$(".nav-links a, .drawer-panel a.dlink").forEach(a=>{

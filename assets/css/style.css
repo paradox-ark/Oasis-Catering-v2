@@ -302,7 +302,7 @@ footer a:hover{color:var(--gold-2)}
 .btn img{width:18px;height:18px;vertical-align:-3px}
 
 /* floating actions */
-.fab-stack{position:fixed;right:16px;bottom:16px;z-index:70;display:grid;gap:.6rem}
+.fab-stack{position:fixed;right:16px;bottom:16px;z-index:70;display:grid;gap:.6rem;transition:opacity .35s ease,transform .35s ease}
 .fab{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:1.4rem;box-shadow:var(--shadow-md);transition:.3s}
 .fab:hover{transform:translateY(-3px) scale(1.04)}
 .fab.wa{background:#1faa55}.fab.call{background:var(--maroon)}.fab.top{background:#2b060b;font-size:1rem;width:44px;height:44px;justify-self:end}
@@ -485,10 +485,11 @@ footer a:hover{color:var(--gold-2)}
   .nav-cta .btn{padding:.65rem 1rem}
   .nav-cta .btn-solid{display:none}
   /* hero: same living slideshow, portrait-framed */
-  .hero{min-height:66svh}
+  .hero{min-height:0}
+  body.on-hero .fab-stack{opacity:0;pointer-events:none;transform:translateY(12px)}
   .hero-slides img{object-position:center 30%}
   .hero::after{background:linear-gradient(180deg,rgba(38,6,12,.72) 0%,rgba(38,6,12,.5) 45%,rgba(38,6,12,.94) 100%)}
-  .hero-inner{padding:2rem 0 4rem}
+  .hero-inner{padding:3rem 0 3.5rem}
   .hero-badge{font-size:.62rem;letter-spacing:.2em;padding:.45rem .9rem}
   .hero h1{font-size:1.9rem;margin:.8rem 0 .6rem}
   .hero-sub{font-size:.92rem}

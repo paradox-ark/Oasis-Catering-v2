@@ -432,7 +432,7 @@ footer a:hover{color:var(--gold-2)}
   .nav-links{display:none}
   .burger{display:block}
   .nav-cta .btn-outline{display:none}
-  .nav-book{display:inline-flex;padding:.55rem 1rem;font-size:.66rem}
+  .nav-book{display:inline-flex;padding:.45rem .85rem;font-size:.62rem;letter-spacing:.14em}
   .hero-side{display:none}
 }
 @media(min-width:1081px){
@@ -475,8 +475,8 @@ footer a:hover{color:var(--gold-2)}
   .brand{flex:1 1 auto;min-width:0}
   .nav-cta{gap:.5rem}
   .brand-logo{height:44px;max-width:150px;padding:4px}
-  header .brand-logo{height:54px;max-width:150px;padding:0}
-  .brand-since{font-size:.62rem;letter-spacing:.22em}
+  header .brand-logo{height:60px;max-width:170px;padding:0}
+  .brand-since{font-size:.72rem;letter-spacing:.24em;text-shadow:0 1px 0 rgba(255,255,255,.65)}
   .stats{gap:1rem}
   .stats div{flex:1 1 0;min-width:0}
   .stats div b{font-size:1.35rem}
@@ -486,11 +486,11 @@ footer a:hover{color:var(--gold-2)}
   .nav-cta .btn{padding:.65rem 1rem}
   .nav-cta .btn-solid{display:none}
   /* hero: same living slideshow, portrait-framed */
-  .hero{min-height:64svh}
+  .hero{min-height:64svh;align-items:start}
+  .hero-inner{padding:1.2rem 0 2.5rem}
   body.on-hero .fab-stack{opacity:0;pointer-events:none;transform:translateY(12px)}
   .hero-slides img{object-position:center 30%}
   .hero::after{background:linear-gradient(180deg,rgba(38,6,12,.72) 0%,rgba(38,6,12,.5) 45%,rgba(38,6,12,.94) 100%)}
-  .hero-inner{padding:2.2rem 0 1.8rem}
   .hero-badge{font-size:.62rem;letter-spacing:.2em;padding:.45rem .9rem}
   .hero h1{font-size:1.9rem;margin:.8rem 0 .6rem}
   .hero-sub{font-size:.92rem}

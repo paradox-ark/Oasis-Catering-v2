@@ -493,9 +493,9 @@ footer a:hover{color:var(--gold-2)}
   .hero-slides img{object-position:center 30%}
   .hero::after{background:linear-gradient(180deg,rgba(38,6,12,.72) 0%,rgba(38,6,12,.5) 45%,rgba(38,6,12,.94) 100%)}
   .hero-badge{font-size:.62rem;letter-spacing:.2em;padding:.45rem .9rem}
-  .hero h1{font-size:1.7rem;margin:.6rem 0 .5rem}
-  .hero-sub{font-size:.88rem}
-  .hero-actions{margin-top:.9rem;gap:.55rem;flex-direction:row}
+  .hero h1{font-size:1.6rem;margin:.6rem 0 .5rem}
+  .hero-sub{font-size:.85rem}
+  .hero-actions{margin-top:.8rem;gap:.5rem;flex-direction:row}
   .hero-meta{flex-direction:row;gap:0;margin-top:1rem;padding-top:.8rem}
   .hero-meta div{flex:1 1 0;text-align:center;padding:0 .25rem;min-width:0}
   .hero-meta div+div{border-left:1px solid rgba(255,255,255,.25)}

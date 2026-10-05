@@ -103,8 +103,8 @@ h1,h2,h3{font-family:var(--font-display);line-height:1.08;font-weight:600;letter
 .brand{display:flex;align-items:center;gap:.9rem;flex:0 0 auto;min-width:0}
 .brand-logo{height:60px;width:auto;max-width:200px;flex:0 0 auto;border-radius:14px;object-fit:contain;object-position:center;background:#fff;padding:6px;box-shadow:0 0 0 2px #fff,0 0 0 4px var(--gold),0 14px 28px -14px rgba(43,6,12,.55)}
 header .brand-logo{background:transparent;padding:0;box-shadow:none;border-radius:0;height:72px;max-width:260px}
-.brand-since{font-size:.78rem;letter-spacing:.3em;text-transform:uppercase;color:var(--maroon);font-weight:700;white-space:nowrap}
-.nav-book{padding:.6rem 1.1rem;font-size:.7rem}
+.brand-since{font-size:.85rem;letter-spacing:.3em;text-transform:uppercase;color:var(--maroon-900);font-weight:700;white-space:nowrap}
+.nav-book{padding:.55rem 1rem;font-size:.66rem}
 .brand-text{display:flex;flex-direction:column;line-height:1.25;min-width:0}
 .brand-text b{font-family:var(--font-display);font-style:italic;font-weight:700;font-size:1.45rem;color:var(--maroon-900);white-space:nowrap}
 .brand-text b span{color:#a5761f}
@@ -432,7 +432,7 @@ footer a:hover{color:var(--gold-2)}
   .nav-links{display:none}
   .burger{display:block}
   .nav-cta .btn-outline{display:none}
-  .nav-book{display:inline-flex;padding:.45rem .85rem;font-size:.62rem;letter-spacing:.14em}
+  .nav-book{display:inline-flex;padding:.4rem .75rem;font-size:.58rem;letter-spacing:.14em}
   .hero-side{display:none}
 }
 @media(min-width:1081px){
@@ -475,8 +475,8 @@ footer a:hover{color:var(--gold-2)}
   .brand{flex:1 1 auto;min-width:0}
   .nav-cta{gap:.5rem}
   .brand-logo{height:44px;max-width:150px;padding:4px}
-  header .brand-logo{height:60px;max-width:170px;padding:0}
-  .brand-since{font-size:.72rem;letter-spacing:.24em;text-shadow:0 1px 0 rgba(255,255,255,.65)}
+  header .brand-logo{height:66px;max-width:190px;padding:0}
+  .brand-since{font-size:.8rem;letter-spacing:.24em;text-shadow:0 1px 0 rgba(255,255,255,.65)}
   .stats{gap:1rem}
   .stats div{flex:1 1 0;min-width:0}
   .stats div b{font-size:1.35rem}

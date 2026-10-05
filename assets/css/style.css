@@ -485,11 +485,11 @@ footer a:hover{color:var(--gold-2)}
   .nav-cta .btn{padding:.65rem 1rem}
   .nav-cta .btn-solid{display:none}
   /* hero: same living slideshow, portrait-framed */
-  .hero{min-height:0}
+  .hero{min-height:calc(100svh - 110px);align-items:center}
   body.on-hero .fab-stack{opacity:0;pointer-events:none;transform:translateY(12px)}
   .hero-slides img{object-position:center 30%}
   .hero::after{background:linear-gradient(180deg,rgba(38,6,12,.72) 0%,rgba(38,6,12,.5) 45%,rgba(38,6,12,.94) 100%)}
-  .hero-inner{padding:3rem 0 3.5rem}
+  .hero-inner{padding:2.5rem 0}
   .hero-badge{font-size:.62rem;letter-spacing:.2em;padding:.45rem .9rem}
   .hero h1{font-size:1.9rem;margin:.8rem 0 .6rem}
   .hero-sub{font-size:.92rem}
@@ -533,8 +533,6 @@ footer a:hover{color:var(--gold-2)}
 .kicker-row{margin-bottom:2.2rem}
 /* hero: single cinematic frame, slow drift */
 .hero{min-height:94svh}
-.hero-slides img.on{animation:kb 28s ease-in-out infinite alternate}
-@keyframes kb{from{transform:scale(1)}to{transform:scale(1.12)}}
 .hero-sub{max-width:44ch}
 /* stats strip */
 .stats{display:flex;gap:clamp(1.6rem,5vw,3.5rem);flex-wrap:wrap;margin-top:2.6rem}

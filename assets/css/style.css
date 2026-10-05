@@ -437,7 +437,13 @@ footer a:hover{color:var(--gold-2)}
 @media(min-width:1081px){
   .site-header .nav{position:relative}
   .site-header nav{position:absolute;left:50%;transform:translateX(-50%)}
+  .site-header{border-bottom:1px solid rgba(201,162,75,.65)}
+  .nav-links{gap:1.9rem}
+  .nav-tel{display:inline-flex;align-items:center;gap:.45rem;font-size:.82rem;letter-spacing:.1em;color:var(--maroon-900);font-weight:600;white-space:nowrap}
+  .nav-tel img{width:16px;height:16px}
+  .nav-tel:hover{color:var(--maroon-2)}
 }
+.nav-tel{display:none}
 @media(max-width:640px){
   body{font-size:15.5px}
   .hero-inner{padding:3.6rem 0 2.4rem}
@@ -455,7 +461,7 @@ footer a:hover{color:var(--gold-2)}
   .lede{font-size:.96rem}
   .eyebrow{font-size:.66rem;letter-spacing:.24em}
   .btn{padding:.85rem 1.4rem;font-size:.76rem;letter-spacing:.14em;white-space:normal;text-align:center;justify-content:center}
-  .hero-actions .btn{flex:1 1 calc(50% - .3rem);justify-content:center;padding:.8rem .6rem;font-size:.68rem;letter-spacing:.1em}
+  .hero-actions .btn{flex:1 1 calc(50% - .3rem);justify-content:center;min-width:0;padding:.8rem .6rem;font-size:.68rem;letter-spacing:.1em;line-height:1.5}
   .hero-actions .btn:first-child:nth-last-child(n+3){flex:1 1 100%}
   .cta-band .btn-row .btn{flex:1 1 auto;justify-content:center}
   .foot-bottom .wrap{justify-content:center;text-align:center}
@@ -469,12 +475,11 @@ footer a:hover{color:var(--gold-2)}
   .nav-cta{gap:.5rem}
   .brand-logo{height:44px;max-width:150px;padding:4px}
   header .brand-logo{height:46px;max-width:132px;padding:0}
-  .brand-since{display:none}
+  .brand-since{font-size:.55rem;letter-spacing:.22em}
   .stats{gap:1rem}
   .stats div{flex:1 1 0;min-width:0}
   .stats div b{font-size:1.35rem}
   .stats div span{font-size:.58rem;letter-spacing:.14em}
-  .brand-since{font-size:.55rem;letter-spacing:.22em}
   .brand-text b{font-size:1.08rem}
   .brand-text small{display:none}
   .nav-cta .btn{padding:.65rem 1rem}

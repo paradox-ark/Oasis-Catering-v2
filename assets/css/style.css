@@ -102,7 +102,7 @@ h1,h2,h3{font-family:var(--font-display);line-height:1.08;font-weight:600;letter
 }
 .brand{display:flex;align-items:center;gap:.9rem;flex:0 0 auto;min-width:0}
 .brand-logo{height:60px;width:auto;max-width:200px;flex:0 0 auto;border-radius:14px;object-fit:contain;object-position:center;background:#fff;padding:6px;box-shadow:0 0 0 2px #fff,0 0 0 4px var(--gold),0 14px 28px -14px rgba(43,6,12,.55)}
-header .brand-logo{background:transparent;padding:0;box-shadow:none;border-radius:0;height:64px;max-width:230px}
+header .brand-logo{background:transparent;padding:0;box-shadow:none;border-radius:0;height:72px;max-width:260px}
 .brand-since{font-size:.68rem;letter-spacing:.32em;text-transform:uppercase;color:#a5761f;font-weight:600;white-space:nowrap}
 .brand-text{display:flex;flex-direction:column;line-height:1.25;min-width:0}
 .brand-text b{font-family:var(--font-display);font-style:italic;font-weight:700;font-size:1.45rem;color:var(--maroon-900);white-space:nowrap}
@@ -431,9 +431,12 @@ footer a:hover{color:var(--gold-2)}
   .nav-links{display:none}
   .burger{display:block}
   .nav-cta .btn-outline{display:none}
-  .nav-call{display:grid;place-items:center;width:46px;height:46px;flex:0 0 auto;border-radius:50%;background:var(--maroon);box-shadow:0 10px 22px -10px rgba(122,18,32,.6)}
-  .nav-call img{width:20px;height:20px;display:block}
+  .nav-book{display:inline-flex;padding:.7rem 1.25rem;font-size:.72rem}
   .hero-side{display:none}
+}
+@media(min-width:1081px){
+  .site-header .nav{position:relative}
+  .site-header nav{position:absolute;left:50%;transform:translateX(-50%)}
 }
 @media(max-width:640px){
   body{font-size:15.5px}
@@ -466,17 +469,21 @@ footer a:hover{color:var(--gold-2)}
   .nav-cta{gap:.5rem}
   .brand-logo{height:44px;max-width:150px;padding:4px}
   header .brand-logo{height:46px;max-width:132px;padding:0}
-  .nav-call{width:42px;height:42px}
+  .brand-since{display:none}
+  .stats{gap:1rem}
+  .stats div{flex:1 1 0;min-width:0}
+  .stats div b{font-size:1.35rem}
+  .stats div span{font-size:.58rem;letter-spacing:.14em}
   .brand-since{font-size:.55rem;letter-spacing:.22em}
   .brand-text b{font-size:1.08rem}
   .brand-text small{display:none}
   .nav-cta .btn{padding:.65rem 1rem}
   .nav-cta .btn-solid{display:none}
   /* hero: same living slideshow, portrait-framed */
-  .hero{min-height:64svh}
+  .hero{min-height:78svh}
   .hero-slides img{object-position:center 30%}
   .hero::after{background:linear-gradient(180deg,rgba(38,6,12,.72) 0%,rgba(38,6,12,.5) 45%,rgba(38,6,12,.94) 100%)}
-  .hero-inner{padding:2.2rem 0 1.8rem}
+  .hero-inner{padding:2.2rem 0 5rem}
   .hero-badge{font-size:.62rem;letter-spacing:.2em;padding:.45rem .9rem}
   .hero h1{font-size:1.9rem;margin:.8rem 0 .6rem}
   .hero-sub{font-size:.92rem}

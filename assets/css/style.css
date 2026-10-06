@@ -488,7 +488,6 @@ footer a:hover{color:var(--gold-2)}
   /* hero: same living slideshow, portrait-framed */
   .hero{min-height:64svh;align-items:start}
   .hero-inner{padding:1rem 0 2rem}
-  body.on-hero .fab-stack{opacity:0;pointer-events:none;transform:translateY(12px)}
   .hero-slides img{object-position:center 30%}
   .hero::after{background:linear-gradient(180deg,rgba(38,6,12,.72) 0%,rgba(38,6,12,.5) 45%,rgba(38,6,12,.94) 100%)}
   .hero-badge{font-size:.62rem;letter-spacing:.2em;padding:.45rem .9rem}
@@ -589,24 +588,4 @@ footer a:hover{color:var(--gold-2)}
   .brand-since{font-size:.56rem;letter-spacing:.16em}
   .nav-cta a.nav-book{padding:.4rem .7rem;font-size:.58rem}
   .burger{padding:.5rem .55rem}
-}
-/* ============================================================
-   Editorial hero — cream canvas, framed slideshow
-   ============================================================ */
-.hero-ed{background:linear-gradient(135deg,#1c0409,var(--maroon-900) 55%,#5c0e1a);color:#fff;isolation:isolate;min-height:0;display:block}
-.hero-ed::after{display:none}
-.hero-ed .hero-grid{display:grid;gap:2rem;align-items:center;padding:clamp(2rem,6vw,3.6rem) 0 clamp(1.6rem,4vw,2.4rem)}
-@media(min-width:960px){.hero-ed .hero-grid{grid-template-columns:1.02fr .98fr;gap:3rem}}
-.hero-ed .hero-actions{margin-top:1.6rem}
-.hero-ed .hero-media{position:relative;border-radius:calc(var(--r-lg) + 6px);overflow:hidden;box-shadow:var(--shadow-lg);aspect-ratio:16/10;background:var(--maroon-950);isolation:isolate;border:1px solid rgba(233,207,138,.45)}
-.hero-ed .hero-slides{position:absolute;inset:0}
-.hero-ed .hero-dots button{background:rgba(255,255,255,.3)}
-.hero-ed .hero-dots button.on{background:var(--gold-2)}
-.hero-ed .hero-meta{border-top:1px solid rgba(255,255,255,.22);margin-top:0;padding:1.4rem 0 .4rem}
-.hero-ed .hero-meta div b{color:#fff}
-.hero-ed .hero-meta div span{color:var(--gold-2)}
-.hero-ed .hero-meta div+div{border-color:rgba(255,255,255,.22)}
-@media(max-width:560px){
-  .hero-ed .hero-grid{padding:1.6rem 0 0;gap:1.4rem}
-  .hero-ed .hero-meta{margin-top:1.4rem}
 }

@@ -15,7 +15,6 @@
     <image:image><image:loc>https://oasiscaterer.com/assets/images/setups/marquee.jpg</image:loc><image:title>Oasis marquee and stage</image:title><image:caption>Marquee interior with crystal chandelier and stage setup.</image:caption></image:image>
     <image:image><image:loc>https://oasiscaterer.com/assets/images/setups/fairy-lawn.jpg</image:loc><image:title>Oasis fairy-light lawn</image:title><image:caption>Outdoor dining glowing under a canopy of fairy lights.</image:caption></image:image>
     <image:image><image:loc>https://oasiscaterer.com/assets/images/setups/rooftop.jpg</image:loc><image:title>Oasis rooftop event</image:title><image:caption>Rooftop corporate setup with stage and dressed tables.</image:caption></image:image>
-    <image:image><image:loc>https://oasiscaterer.com/assets/images/setups/birthday.jpg</image:loc><image:title>Oasis birthday table</image:title><image:caption>Candle-lit birthday dinner styling with florals.</image:caption></image:image>
     <image:image><image:loc>https://oasiscaterer.com/assets/images/setups/umbrellas.jpg</image:loc><image:title>Oasis umbrella dining</image:title><image:caption>Night umbrella dining setup outdoors.</image:caption></image:image>
     <image:image><image:loc>https://oasiscaterer.com/assets/images/setups/table-red.jpg</image:loc><image:title>Oasis black and red tablescape</image:title><image:caption>Black and red table styling with bows and glassware.</image:caption></image:image>
     <video:video>
@@ -43,9 +42,9 @@
       <video:content_loc>https://oasiscaterer.com/assets/videos/reel-4.mp4</video:content_loc>
     </video:video>
     <video:video>
-      <video:thumbnail_loc>https://oasiscaterer.com/assets/images/setups/birthday.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://oasiscaterer.com/assets/images/setups/table-red.jpg</video:thumbnail_loc>
       <video:title>Oasis Event Reel 05 — Table stories</video:title>
-      <video:description>Table styling details from an Oasis birthday dinner.</video:description>
+      <video:description>Table styling details from an Oasis celebration.</video:description>
       <video:content_loc>https://oasiscaterer.com/assets/videos/reel-5.mp4</video:content_loc>
     </video:video>
   </url>

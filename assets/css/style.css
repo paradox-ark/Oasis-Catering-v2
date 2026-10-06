@@ -593,24 +593,19 @@ footer a:hover{color:var(--gold-2)}
 /* ============================================================
    Editorial hero — cream canvas, framed slideshow
    ============================================================ */
-.hero-ed{background:var(--cream);color:var(--ink);isolation:isolate;min-height:0;display:block}
+.hero-ed{background:linear-gradient(135deg,#1c0409,var(--maroon-900) 55%,#5c0e1a);color:#fff;isolation:isolate;min-height:0;display:block}
 .hero-ed::after{display:none}
 .hero-ed .hero-grid{display:grid;gap:2rem;align-items:center;padding:clamp(2rem,6vw,3.6rem) 0 clamp(1.6rem,4vw,2.4rem)}
 @media(min-width:960px){.hero-ed .hero-grid{grid-template-columns:1.02fr .98fr;gap:3rem}}
-.hero-ed .hero-badge{border-color:rgba(122,18,32,.35);color:var(--maroon);background:rgba(255,255,255,.6)}
-.hero-ed h1{color:var(--maroon-900);text-shadow:none}
-.hero-ed h1 em{color:var(--maroon-2)}
-.hero-ed .hero-sub{color:#5b4748}
-.hero-ed .hero-sub strong{color:var(--maroon)}
 .hero-ed .hero-actions{margin-top:1.6rem}
-.hero-ed .hero-media{position:relative;border-radius:calc(var(--r-lg) + 6px);overflow:hidden;box-shadow:var(--shadow-lg);aspect-ratio:16/10;background:var(--maroon-950);isolation:isolate}
+.hero-ed .hero-media{position:relative;border-radius:calc(var(--r-lg) + 6px);overflow:hidden;box-shadow:var(--shadow-lg);aspect-ratio:16/10;background:var(--maroon-950);isolation:isolate;border:1px solid rgba(233,207,138,.45)}
 .hero-ed .hero-slides{position:absolute;inset:0}
-.hero-ed .hero-dots button{background:rgba(122,18,32,.22)}
-.hero-ed .hero-dots button.on{background:var(--maroon)}
-.hero-ed .hero-meta{border-top:1px solid var(--line);margin-top:0;padding:1.4rem 0 .4rem}
-.hero-ed .hero-meta div b{color:var(--maroon-900)}
-.hero-ed .hero-meta div span{color:#a5761f}
-.hero-ed .hero-meta div+div{border-color:var(--line)}
+.hero-ed .hero-dots button{background:rgba(255,255,255,.3)}
+.hero-ed .hero-dots button.on{background:var(--gold-2)}
+.hero-ed .hero-meta{border-top:1px solid rgba(255,255,255,.22);margin-top:0;padding:1.4rem 0 .4rem}
+.hero-ed .hero-meta div b{color:#fff}
+.hero-ed .hero-meta div span{color:var(--gold-2)}
+.hero-ed .hero-meta div+div{border-color:rgba(255,255,255,.22)}
 @media(max-width:560px){
   .hero-ed .hero-grid{padding:1.6rem 0 0;gap:1.4rem}
   .hero-ed .hero-meta{margin-top:1.4rem}

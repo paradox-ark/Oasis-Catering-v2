@@ -486,12 +486,12 @@ footer a:hover{color:var(--gold-2)}
   .nav-cta .btn{padding:.65rem 1rem}
   .nav-cta .btn-solid{display:none}
   /* hero: same living slideshow, portrait-framed */
-  .hero{min-height:64svh;align-items:start}
+  .hero{min-height:0;align-items:start}
   .hero-inner{padding:1rem 0 2rem}
   .hero-slides img{object-position:center 30%}
   .hero::after{background:linear-gradient(180deg,rgba(38,6,12,.72) 0%,rgba(38,6,12,.5) 45%,rgba(38,6,12,.94) 100%)}
-  .hero-badge{font-size:.62rem;letter-spacing:.2em;padding:.45rem .9rem}
-  .hero h1{font-size:1.6rem;margin:.6rem 0 .5rem}
+  .hero-badge{font-size:.58rem;letter-spacing:.18em;padding:.4rem .8rem}
+  .hero h1{font-size:1.5rem;margin:.5rem 0 .4rem}
   .hero-sub{font-size:.85rem}
   .hero-actions{margin-top:.8rem;gap:.5rem;flex-direction:row}
   .hero-meta{flex-direction:row;gap:0;margin-top:1rem;padding-top:.8rem}
@@ -499,7 +499,7 @@ footer a:hover{color:var(--gold-2)}
   .hero-meta div+div{border-left:1px solid rgba(255,255,255,.25)}
   .hero-meta div b{font-size:.8rem;line-height:1.3}
   .hero-meta div span{font-size:.52rem;letter-spacing:.08em;line-height:1.6;overflow-wrap:break-word}
-  .hero-dots{margin-top:.8rem}
+  .hero-dots{margin-top:.7rem}
   .scroll-cue{display:none}
   .page-hero .wrap{padding:2.8rem 0 2.2rem}
   /* content rhythm: lighter, airier */

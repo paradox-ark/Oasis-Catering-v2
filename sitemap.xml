@@ -3,14 +3,14 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
-    <loc>https://oasiscaterer.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority>
+    <loc>https://oasiscaterer.com/</loc><lastmod>2026-10-06</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
     <image:image><image:loc>https://oasiscaterer.com/assets/images/setups/fairy-lawn.jpg</image:loc><image:title>Oasis fairy-light lawn wedding</image:title><image:caption>An Oasis evening setup glowing under fairy lights on a green lawn in Islamabad.</image:caption></image:image>
   </url>
   <url>
-    <loc>https://oasiscaterer.com/menu.html</loc><changefreq>weekly</changefreq><priority>0.9</priority>
+    <loc>https://oasiscaterer.com/menu.html</loc><lastmod>2026-10-06</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
   </url>
   <url>
-    <loc>https://oasiscaterer.com/gallery.html</loc><changefreq>weekly</changefreq><priority>0.9</priority>
+    <loc>https://oasiscaterer.com/gallery.html</loc><lastmod>2026-10-06</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
     <image:image><image:loc>https://oasiscaterer.com/assets/images/setups/wedding-hills.jpg</image:loc><image:title>Oasis hilltop wedding</image:title><image:caption>Hilltop wedding in a red theme with fairy lights by Oasis Catering.</image:caption></image:image>
     <image:image><image:loc>https://oasiscaterer.com/assets/images/setups/marquee.jpg</image:loc><image:title>Oasis marquee and stage</image:title><image:caption>Marquee interior with crystal chandelier and stage setup.</image:caption></image:image>
     <image:image><image:loc>https://oasiscaterer.com/assets/images/setups/fairy-lawn.jpg</image:loc><image:title>Oasis fairy-light lawn</image:title><image:caption>Outdoor dining glowing under a canopy of fairy lights.</image:caption></image:image>
@@ -50,18 +50,18 @@
     </video:video>
   </url>
   <url>
-    <loc>https://oasiscaterer.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.9</priority>
+    <loc>https://oasiscaterer.com/contact.html</loc><lastmod>2026-10-06</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
     <image:image><image:loc>https://oasiscaterer.com/assets/images/setups/umbrellas.jpg</image:loc><image:title>Oasis outdoor dining</image:title><image:caption>Umbrella dining setup by Oasis at night.</image:caption></image:image>
   </url>
   <url>
-    <loc>https://oasiscaterer.com/about.html</loc><changefreq>monthly</changefreq><priority>0.7</priority>
+    <loc>https://oasiscaterer.com/about.html</loc><lastmod>2026-10-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
     <image:image><image:loc>https://oasiscaterer.com/assets/images/setups/wedding-hills.jpg</image:loc><image:title>Oasis hilltop wedding</image:title><image:caption>A signature Oasis wedding setup at dusk.</image:caption></image:image>
     <image:image><image:loc>https://oasiscaterer.com/assets/images/setups/umbrellas.jpg</image:loc><image:title>Oasis outdoor dining</image:title><image:caption>Al fresco umbrella dining arranged by Oasis.</image:caption></image:image>
   </url>
   <url>
-    <loc>https://oasiscaterer.com/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority>
+    <loc>https://oasiscaterer.com/privacy.html</loc><lastmod>2026-10-06</lastmod><changefreq>yearly</changefreq><priority>0.3</priority>
   </url>
   <url>
-    <loc>https://oasiscaterer.com/terms.html</loc><changefreq>yearly</changefreq><priority>0.3</priority>
+    <loc>https://oasiscaterer.com/terms.html</loc><lastmod>2026-10-06</lastmod><changefreq>yearly</changefreq><priority>0.3</priority>
   </url>
 </urlset>
